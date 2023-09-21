@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Home</title>
+        <script src="https://kit.fontawesome.com/82f797382f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="logo_header">
+              <a href="index.html" class="logo">Plantastic</a>
+              <button class="navbar_toggle">
+                <i class="fas fa-bars"></i>
+              </button>
+            </div>
+        
+            
+            <ul class="main_nav">
+              <li>
+                <a href="index.html" class="nav_links">Home</a>
+              </li>
+              <li>
+                <a href="products.html" class="nav_links">Products</a>
+              </li>
+              <li>
+                <a href="aboutus.html" class="nav_links">About Us</a>
+              </li>
+              <li>
+                <a href="contactus.html" class="nav_links">Contact Us</a>
+              </li>
+
+            </ul>
+              
+          </nav>
+          <div class="image-container">
+            <img src="images/pic1.jpg" class="responsive-image" alt="background picture">
+          
+            <div class="text-overlay">
+          <table width="100%" height="auto">
+            <tr class="bg">
+                <td class="text" width="40%" height="auto">
+                  <h1 class="heroh1">Step into a green paradise and breathe life into your surroundings.</h1>
+                  <P class="herop">Welcome to Plantastic, where you can step into a green paradise and breathe life into your surroundings. we have a diverse selection of plants to suit every space and style.</P>
+                  <button id="Buttn" type="button" class="bttn">Products</button>
+                  <script type="text/javascript">
+                    document.getElementById("Buttn").onclick = function () {
+                        location.href = "products.html";
+                    };
+                </script>
+                  <button id="button" type="button" class="button">Contact Us</button>
+                  <script type="text/javascript">
+                    document.getElementById("button").onclick = function () {
+                        location.href = "contactus.html";
+                    };
+                </script>
+
+                </td>
+                <td width="50%" height="auto">
+                </td>
+            </tr>
+          </table>
+        </div>
+        </div>
+
+        <div class="footer-basic">
+          <footer>
+            <div class="social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-tiktok"></i></a>
+          </div>
+              <p class="copyright">Plantastic © 2023</p>
+          </footer>
+      </div>
+         
+
+
+
+        
+        <script src="java.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
